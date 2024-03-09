@@ -89,3 +89,7 @@ color:var(--nav-hover-link-color)
     width: 25%;
     padding:5px;
    }
+
+ img{
+    margin:0 auto;
+   }
