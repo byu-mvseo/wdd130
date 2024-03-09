@@ -28,7 +28,7 @@ body {
 
   header{
     padding:20px;
-    background-color: var(--primary-color);
+    background-color: var(--accent-color);
 }
 p{
     padding:25px;
