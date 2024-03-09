@@ -91,5 +91,6 @@ color:var(--nav-hover-link-color)
    }
 
  img{
+      display: block;
     margin:0 auto;
    }
