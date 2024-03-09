@@ -35,8 +35,23 @@ p{
  
 }
 nav{
-   background-color: var(--secondary-color);
-   font-size: 1,2em;
+   background-color: var(--navigation-background-color);
+   font-size: 1.2rem;
    display:flex;
- 
+ }
+
+ nav a{
+    background-color: var(--navigation-background-color);
+    text-decoration:none;  
+    display:block;
+    padding:1rem;
+}
+
+  nav a:link, nav a:visited{
+ color:var(--navigation-link-color);
+  }
+
+  nav a:hover{
+   background-color:var(--navigation-hover-background-color);
+color:var(--navigation-hover-link-color)  
 }
