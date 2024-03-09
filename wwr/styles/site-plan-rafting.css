@@ -23,13 +23,14 @@ body {
     max-width: 960px;
     padding: 20px;
     font-family: var(--paragraph-font);
-   margin:0 auto;
-   text-align:justify;
+   margin:0 auto; /*added*/
+   text-align:justify; /*added*/
   }
 
   h1,h2,h3,h4,h5,h6{
        font-family: var(--heading-font);
        color: var(--primary-color);
+       text-align: center; /*added*/
   }
 
   header{
@@ -62,6 +63,7 @@ nav{
 color:var(--nav-hover-link-color)  
 }
 
+/*added*/
 .colored{
     background-color:var(--primary-color);
  color:var(--accent1-color)  
