@@ -59,3 +59,8 @@ nav{
    background-color:var(--nav-hover-background-color);
 color:var(--nav-hover-link-color)  
 }
+
+.colored{
+    background-color:var(--primary-color);
+ color:var(--accent1-color)  
+ }
