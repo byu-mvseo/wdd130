@@ -34,3 +34,9 @@ p{
     padding:25px;
  
 }
+nav{
+   background-color: var(--secondary-color);
+   font-size: 1,2em;
+   display:flex;
+ 
+}
