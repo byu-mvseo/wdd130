@@ -81,3 +81,6 @@ color:var(--nav-hover-link-color)
   .accent2{
     background-color: var(--accent2-color);
   }
+  img{
+    text-align:center;
+  }
