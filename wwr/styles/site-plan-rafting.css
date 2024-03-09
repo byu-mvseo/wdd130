@@ -81,6 +81,9 @@ color:var(--nav-hover-link-color)
   .accent2{
     background-color: var(--accent2-color);
   }
-  img{
-    text-align:center;
+  .palette-table{
+   width: 100%;
   }
+  .palette-table td{
+    width: 25%;
+   }
