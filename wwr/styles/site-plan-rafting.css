@@ -3,16 +3,16 @@
 :root{
     --primary-color:#1A2C85;
     --secondary-color:#FFD400;
-    --accent-color:#F2FDFF;
-    --additional-accent-color:#B3001B;
+    --accent1-color:#F2FDFF;
+    --accent2-color:#B3001B;
     
     --heading-font:'Josefin Sans',serif;
     --paragraph-font:'Roboto',serif;
     
-    --navigation-background-color:var(--secondary-color);
-    --navigation-link-color:var(--primary-color);
-    --navigation-hover-link-color:var(--accent-color);
-    --navigation-hover-background-color:var(--primary-color);
+    --nav-background-color:var(--secondary-color);
+    --nav-link-color:var(--primary-color);
+    --nav-hover-link-color:var(--accent1-color);
+    --nav-hover-background-color:var(--primary-color);
 }
 
 body {
@@ -28,30 +28,30 @@ body {
 
   header{
     padding:20px;
-    background-color: var(--accent-color);
+    background-color: var(--accent1-color);
 }
 p{
     padding:25px;
  
 }
 nav{
-   background-color: var(--navigation-background-color);
+   background-color: var(--nav-background-color);
    font-size: 1.2rem;
    display:flex;
  }
 
  nav a{
-    background-color: var(--navigation-background-color);
+    background-color: var(--nav-background-color);
     text-decoration:none;  
     display:block;
     padding:1rem;
 }
 
   nav a:link, nav a:visited{
- color:var(--navigation-link-color);
+ color:var(--nav-link-color);
   }
 
   nav a:hover{
-   background-color:var(--navigation-hover-background-color);
-color:var(--navigation-hover-link-color)  
+   background-color:var(--nav-hover-background-color);
+color:var(--nav-hover-link-color)  
 }
