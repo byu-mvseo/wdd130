@@ -46,6 +46,7 @@ aside img{
 main img{
     width: 150px;
     height: auto;
+    float:right;
 }
 p{
     padding: 0;
