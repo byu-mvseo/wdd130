@@ -33,11 +33,15 @@ main{
 }
 aside{
     width: 300px;
+    position:relative;
     /*margin:10px ;*/
     /*border: 1px solid steelblue; remove*/
     /*padding: 5px;*/
     /*background-color: aqua;remove*/
     /*color:black;remove*/
+}
+h2 aside{
+   position:absolute;
 }
 aside img{
     width: 200px;
