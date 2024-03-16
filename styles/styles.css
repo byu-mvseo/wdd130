@@ -58,7 +58,7 @@ footer{
 
 /*class selectors*/
 .box{
-    margin: 0;
+    margin: 1rem;
     border: 0;
-    padding:0;
+    padding:1rem;
  }
