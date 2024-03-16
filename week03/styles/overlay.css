@@ -25,6 +25,9 @@ h2 {
 	height: 100%;
 	object-fit: cover;
 }
+article {
+	background-color: aqua;
+}
 
 .stats {
 	position: absolute;
