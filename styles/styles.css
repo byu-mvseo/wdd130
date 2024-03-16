@@ -33,11 +33,11 @@ main{
 }
 aside{
     width: 300px;
-    margin:10px ;
-    border: 1px solid steelblue;
-    padding: 5px;
-    background-color: aqua;
-    color:black;
+    /*margin:10px ;*/
+    /*border: 1px solid steelblue; remove*/
+    /*padding: 5px;*/
+    /*background-color: aqua;remove*/
+    /*color:black;remove*/
 }
 aside img{
     width: 200px;
@@ -59,7 +59,7 @@ footer{
 /*class selectors*/
 .box{
     margin: 1rem;
-    border: 0;
+    border: 1px solid #810e0e;
     padding:1rem;
     background-color: blanchedalmond;
     color:black;
