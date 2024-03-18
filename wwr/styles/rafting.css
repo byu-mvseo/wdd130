@@ -70,4 +70,6 @@ color:aliceblue;
 }
 .hero article img{
     float:left;
+    width: 50px;
+    height: auto;;
 }
