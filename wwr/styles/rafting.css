@@ -44,4 +44,15 @@ footer nav a{
      text-decoration:none;  
  
  }
- 
+ .hero{
+    position: relative;
+
+}
+.hero h1{
+    position: absolute;
+
+}
+.hero article{
+    position: absolute;
+
+}
