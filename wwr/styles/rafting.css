@@ -56,12 +56,16 @@ footer nav a{
 .hero h1{
     position: absolute;
 top: 100px;
-left:center;
+left:300px;
 color:aliceblue;
 }
 .hero article {
     position: absolute;
     background-color: #1A2C85;
+    
+    top: 200px;
+     color:aliceblue;
+
 
 }
 .hero article img{
