@@ -61,9 +61,8 @@ color:aliceblue;
 }
 .hero article {
     position: absolute;
-    background-color: #1A2C85;
-    opacity: 0.6;
-    
+    background-color: rgba(0, 0, 255, 0.226);
+     
     top: 200px;
      color:aliceblue;
 
