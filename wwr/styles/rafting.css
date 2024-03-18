@@ -46,8 +46,10 @@ footer nav a{
  }
  .hero{
     position: relative;
-    background-image: url(images/rafting63_1024.jpg);
-    
+    background-image: url("images/rafting63_1024.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+   
 }
 .hero img{
     display:block;
