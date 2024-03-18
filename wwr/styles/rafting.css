@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Roboto&display=swap');
+
+:root{
+    /*primary-color, secondary-color, accent1-color, 
+    accent2-color, heading-font, paragraph-font, 
+    nav-background-color, nav-link-color, nav-hover-link-color,*/
+
+    --primary-color:#1A2C85;
+    --secondary-color:#FFD400;
+    --accent1-color:#F2FDFF;
+    --accent2-color:#B3001B;
+    
+    --heading-font:'Josefin Sans',serif;
+    --paragraph-font:'Roboto',serif;
+    
+    --nav-background-color:#FFD400;
+    --nav-link-color:#1A2C85;
+    --nav-hover-link-color:#F2FDFF;
+    --nav-hover-background-color:#1A2C85;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    text-align: center; /*added*/
+}
+
+p{
+ padding:25px;
+ color: #000;
+}
+
+
+footer nav a{
+     text-decoration:none;  
+ 
+ }
+ 

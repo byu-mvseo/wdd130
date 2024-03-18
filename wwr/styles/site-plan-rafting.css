@@ -48,7 +48,7 @@ nav{
    display:flex;
  }
 
- nav a{
+ footer nav a{
     background-color: var(--nav-background-color);
     text-decoration:none;  
     display:block;
