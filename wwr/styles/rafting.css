@@ -66,13 +66,14 @@ color:aliceblue;
 }
 .hero article {
     position: absolute;
-    background-color: rgba(0, 0, 255, 0.226);
+    background-color: rgba(0, 0, 255, 0.301);
      
     top: 200px;
-     color:aliceblue;
+    
      padding:20px;
-
-
+}
+.hero article p{
+   color:aquamarine;
 }
 .hero article img{
     float:right;
