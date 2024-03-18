@@ -32,7 +32,7 @@ main{
     max-width: 840px;
 }
 aside{
-    width: 200px;
+    width: 20em;
     position:relative;
     /*margin:10px ;*/
     /*border: 1px solid steelblue; remove*/
@@ -40,7 +40,7 @@ aside{
     /*background-color: aqua;remove*/
     /*color:black;remove*/
 }
-h2 aside{
+aside h2{
    position:absolute;
    top:247;
    left:150px;
