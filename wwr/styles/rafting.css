@@ -61,3 +61,6 @@ footer nav a{
     position: absolute;
 
 }
+.hero article img{
+    float:right;
+}
