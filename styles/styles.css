@@ -72,8 +72,11 @@ footer{
 header, footer{
    max-width:840px;
    margin:0 auto;
- }
+    }
 
+    header{
+        background-color: aquamarine;
+         }
 /* Class Selectors */
 .box{
     margin: 1rem;
