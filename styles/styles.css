@@ -22,6 +22,7 @@ nav{
 
   h1{
     color:steelblue;
+    border-bottom: 2px solid steelblue;
      }
 img{
     width: 150px;
