@@ -42,6 +42,8 @@ main{
 aside{
     width: 20em;
     position:relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
     /*margin:10px ;*/
     /*border: 1px solid steelblue; remove*/
     /*padding: 5px;*/
