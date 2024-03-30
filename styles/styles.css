@@ -36,7 +36,8 @@ p{
     padding: 10px;
 }
 main{
-    /*max-width: 840px;*/
+    grid-column: 2/3;
+    margin:1rem;
 }
 aside{
     width: 20em;
