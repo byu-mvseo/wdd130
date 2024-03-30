@@ -73,7 +73,9 @@ header, .grid, footer{
    max-width:840px;
    margin:0 auto;
     }
-
+.grid{
+ display:grid;
+         }
     header{
         background-color: aquamarine;
          }
