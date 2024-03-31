@@ -81,7 +81,7 @@ header{
    grid-template-columns:1fr 2fr;
    align-items: center;
    gap: 5px;
-   padding:20px;
+   padding:0 20p 0 0;
  }
 
 nav{
