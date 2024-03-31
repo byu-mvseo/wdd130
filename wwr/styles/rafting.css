@@ -98,7 +98,7 @@ nav{
     flex: 1 1 100%;
     background-color:#1A2C85;
     border:1px solid #fff;
-    text-align: right;
+    text-align: center;
      }
 
 .navigation a{
@@ -106,7 +106,7 @@ nav{
     color:#F2FDFF;
      text-decoration: none;
     background-color: #B3001B;
-    padding:20px;
+    padding:10px 5px 10px 5px;
    
         }
 .navigation a:hover{
