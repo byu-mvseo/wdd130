@@ -125,10 +125,11 @@ nav{
  .adventuregrid{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap:5px;
   
  }
  .adventuregrid img{
-   width:auto;
+   width:max-content;
   
  }
 section{
