@@ -92,7 +92,6 @@ nav{
 nav ul{
        list-style: none;
        display:flex;
-       justify-content:space-around;
        align-content:center;
         }
 nav ul li{
