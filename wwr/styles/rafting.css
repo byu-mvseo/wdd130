@@ -124,13 +124,14 @@ nav{
  }
  .adventuregrid{
     display: flex;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     justify-content: space-between;
   align-items: center;
   background-color: #B3001B;
   
  }
- 
+ fig img {
+    width: 100%;
+    }
 section{
  padding:20px;
   }
