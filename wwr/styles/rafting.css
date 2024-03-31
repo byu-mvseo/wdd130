@@ -148,6 +148,9 @@ footer{
     gap: 5px;
     padding:0 20px 0 0;
     color:#F2FDFF;
-    font-size: 1rem;
+ 
   }
+  footer p{
+    color:#F2FDFF;
+     }
  
