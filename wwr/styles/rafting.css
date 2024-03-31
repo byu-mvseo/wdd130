@@ -123,13 +123,15 @@ nav{
    align-self: center;
  }
  .adventuregrid{
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    gap:5px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
   
  }
- .adventuregrid img{
-   width:max-content;
+ .adventuregrid figure{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
   
  }
 section{
