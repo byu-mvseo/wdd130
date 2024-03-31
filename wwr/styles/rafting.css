@@ -124,9 +124,8 @@ nav{
  }
  .adventuregrid{
     display: flex;
-    flex:20% 20% 20% 20% 20%;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex:10% 10% 10% 10% 10%;
+     justify-content: space-between;
   align-items: center;
   background-color: #B3001B;
   
