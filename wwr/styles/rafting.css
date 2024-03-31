@@ -131,8 +131,7 @@ nav{
   
  }
  .adventuregrid figure{
-    max-width:fit-content;
-    height: auto;
+   object-fit: contain;
  
  }
 section{
