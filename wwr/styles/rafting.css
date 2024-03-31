@@ -66,6 +66,8 @@ p{
     background-color: rgba(0, 0, 255, 0.301);
     top: 200px;
     padding:20px;
+    margin-left:20px;
+    margin-right:20px;
 }
 .hero article p{
    color:aquamarine;
@@ -81,7 +83,7 @@ header{
    grid-template-columns:1fr 2fr;
    align-items: center;
    gap: 5px;
-   padding:0 20p 0 0;
+   padding:0 20px 0 0;
  }
 
 nav{
