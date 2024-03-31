@@ -90,7 +90,10 @@ nav{
     justify-content:space-around;
     align-content:center;
     }
-nav a{
+nav ul{
+       list-style: none;
+        }
+nav ul li{
 background-color: #FFD400;
 padding: 10px;
 margin:0;
