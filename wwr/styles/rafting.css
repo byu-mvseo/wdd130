@@ -117,3 +117,7 @@ nav{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
  }
+ .historygrid img{
+   justify-self: center;
+   align-self: center;
+ }
