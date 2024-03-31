@@ -102,6 +102,7 @@ nav{
      }
 
 .navigation a{
+    display: block;
     color:#F2FDFF;
      text-decoration: none;
     background-color: #B3001B;
