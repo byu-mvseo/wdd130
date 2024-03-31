@@ -116,7 +116,7 @@ nav{
                     }
 .historygrid{
     display:flex;
-    flex:33% 34% 33%;
+    /*flex:33% 34% 33%;*/
     justify-content: space-around;
   align-items: center;
   gap:10px;
@@ -126,7 +126,7 @@ nav{
  }
  .adventuregrid{
     display: flex;
-    flex:20% 20% 20% 20% 20%;
+    /*flex:20% 20% 20% 20% 20%;*/
   justify-content: space-around;
   align-items: center;
   gap:10px;
