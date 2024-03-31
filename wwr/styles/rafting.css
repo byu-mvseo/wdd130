@@ -115,12 +115,14 @@ nav{
     text-decoration: none;
                     }
 .historygrid{
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display:flex;
+    flex:33% 34% 33%;
+    justify-content: space-around;
+  align-items: center;
+  gap:10px;
  }
  .historygrid img{
-   justify-self: center;
-   align-self: center;
+   width:100%;
  }
  .adventuregrid{
     display: flex;
