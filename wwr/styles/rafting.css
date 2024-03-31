@@ -130,10 +130,26 @@ nav{
   background-color: #B3001B;
   
  }
- .adventuregrid figure img{
-   object-fit: contain;
+ .one{
+   grid-column:1/2;
  
  }
+ .two{
+    grid-column:2/2;
+  
+  }
+  .three{
+    grid-column:3/2;
+  
+  }
+  .four{
+    grid-column:4/2;
+  
+  }
+  .five{
+    grid-column:5/2;
+  
+  }
 section{
  padding:20px;
   }
