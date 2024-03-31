@@ -94,9 +94,16 @@ nav ul{
        justify-content:space-around;
        align-content:center;
         }
-nav ul li{
-background-color: #FFD400;
+nav ul li, nav ul li a{
+background-color:#1A2C85;
+color:#F2FDFF;
 padding: 10px;
 margin:0;
         }
+        nav ul li a:hover{
+            background-color:#FFD400;
+            color:#F2FDFF;
+            padding: 10px;
+            margin:0;
+                    }
   
