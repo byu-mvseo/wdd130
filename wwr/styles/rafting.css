@@ -78,6 +78,7 @@ p{
    height: auto;
 }
 header{
+   background-color: #1A2C85;
    display:grid;
    grid-template-columns:1fr 2fr;
    align-items: center;
