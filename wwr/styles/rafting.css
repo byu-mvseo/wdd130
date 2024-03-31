@@ -125,7 +125,7 @@ nav{
  .adventuregrid{
     display: flex;
     flex:20% 20% 20% 20% 20%;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   gap:10px;
   background-color: #B3001B;
@@ -140,3 +140,12 @@ nav{
 section{
  padding:20px;
   }
+footer{
+    background-color: #1A2C85;
+    display:grid;
+    grid-template-columns:2fr 1fr;
+    align-items: center;
+    gap: 5px;
+    padding:0 20px 0 0;
+  }
+ 
