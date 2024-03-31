@@ -96,22 +96,21 @@ nav ul{
        align-content:center;
         }
 nav ul li{
-        flex: 1 1 100%;
-        background-color:#1A2C85;
+    flex: 1 1 100%;
+    background-color:#1A2C85;
     }
 
 nav ul li, nav ul li a{
-
-color:#F2FDFF;
-padding: 10px 20px 10px 20px;
-margin:0;
-text-decoration: none;
+    color:#F2FDFF;
+    padding: 10px 20px 10px 20px;
+    margin:0;
+    text-decoration: none;
         }
 nav ul li a:hover{
-            background-color:#FFD400;
-            color:#1A2C85;
-            padding: 10px 20px 10px 20px;
-            margin:0;
-            text-decoration: none;
+    background-color:#FFD400;
+    color:#1A2C85;
+    padding: 10px 20px 10px 20px;
+    margin:0;
+    text-decoration: none;
                     }
   
