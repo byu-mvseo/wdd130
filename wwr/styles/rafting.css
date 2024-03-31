@@ -90,11 +90,16 @@ nav{
    
     }
 nav ul{
+
        list-style: none;
        display:flex;
        justify-content:space-between;
        align-content:center;
         }
+        nav ul li{
+        flex: 1 1 100%;
+    }
+
 nav ul li, nav ul li a{
 background-color:#1A2C85;
 color:#F2FDFF;
