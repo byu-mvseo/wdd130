@@ -125,14 +125,14 @@ nav{
  .adventuregrid{
     display: flex;
     flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   background-color: #B3001B;
   
  }
  .adventuregrid figure{
     max-width: 200px;
-  
+ 
  }
 section{
  padding:20px;
