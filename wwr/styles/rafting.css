@@ -99,6 +99,7 @@ nav ul li{
     flex: 1 1 100%;
     background-color:#1A2C85;
     border:1px solid #fff;
+    align-self: center;
     }
 
 nav ul li, nav ul li a{
