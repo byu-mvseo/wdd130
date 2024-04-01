@@ -16,7 +16,10 @@
     --nav-background-color:#FFD400;
     --nav-link-color:#1A2C85;
     --nav-hover-link-color:#F2FDFF;
-    --nav-hover-background-color:#1A2C85;
+    --nav-hover-background-color:#1a2c85;
+    --text-color:#000;
+    --section-background-color:hsla(194, 68%, 70%, 0.432);
+    --text-color:#000;
 }
 
 *{
@@ -40,7 +43,7 @@ h1,h2,h3,h4,h5,h6{
 
 p{
     padding:25px;
-    color: #000;
+    color: var(--text-color);
 }
 
 .sociallinks a{
@@ -60,7 +63,7 @@ p{
     position: absolute;
     top: 100px;
     left:300px;
-    color:aliceblue;
+    color:var(--accent1-color);
 }
 .hero article {
     position: absolute;
@@ -71,7 +74,7 @@ p{
     margin-right:20px;
 }
 .hero article p{
-   color:aquamarine;
+   color:var(--accent1-color);
 }
 .hero article img{
    float:right;
@@ -79,7 +82,7 @@ p{
    height: auto;
 }
 header{
-   background-color: #1A2C85;
+   background-color:var(--primary-color);
    display:grid;
    grid-template-columns:1fr 2fr;
    align-items: center;
@@ -97,21 +100,21 @@ nav{
         }
 .navigation li{
     flex: 1 1 100%;
-    background-color:#1A2C85;
+    background-color:var(--primary-color);
     border:1px solid #fff;
     text-align: center;
      }
 
 .navigation a{
     display: block;
-    color:#F2FDFF;
+    color:var(--accent1-color);
      text-decoration: none;
     padding:10px 5px 10px 5px;
    
         }
 .navigation a:hover{
-    background-color:#FFD400;
-    color:#1A2C85;
+    background-color:var(--secondary-color);
+    color:var(--primary-color);
     text-decoration: none;
                     }
 .historygrid{
@@ -130,7 +133,7 @@ nav{
   justify-content: space-around;
   align-items: center;
   gap:10px;
-  background-color: #B3001B;
+  background-color:var(--section-background-color);
   
  }
  figure img {
@@ -141,18 +144,20 @@ nav{
         }
 section{
  padding:20px;
+ margin-top:5px;
+ margin-bottom:5px;
   }
 footer{
-    background-color: #1A2C85;
+    background-color:var(--primary-color);
     display:grid;
     grid-template-columns:1fr 1fr 1fr;
     align-items: center;
     gap: 5px;
     padding:0 20px 0 0;
-    color:#F2FDFF;
+    color:var(--accent1-color);
  
   }
   footer p{
-    color:#F2FDFF;
+    color:var(--accent1-color);
      }
  
