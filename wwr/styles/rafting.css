@@ -133,7 +133,7 @@ nav{
   justify-content: space-around;
   align-items: center;
   gap:10px;
-  background-color:var(--section-background-color);
+ 
   
  }
  figure img {
@@ -146,6 +146,7 @@ section{
  padding:20px;
  margin-top:5px;
  margin-bottom:5px;
+ background-color:var(--section-background-color);
   }
 footer{
     background-color:var(--primary-color);
