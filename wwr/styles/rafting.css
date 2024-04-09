@@ -135,21 +135,25 @@ nav{
   gap:10px;
    
  }
- .contactform{
-    display: flex;
-    /*flex:20% 20% 20% 20% 20%;*/
-  justify-content: space-around;
-  align-items: center;
-  gap:10px;
-   
- }
  .companyinfo{
-  flex:50% 50%;
+    display: flex;
+    flex:50% 50%;
+    justify-content: space-around;
+    align-items: center;
+    gap:10px;
+     
+   }
+ .contactform{
+    padding: 20px;
   justify-content: space-around;
   align-items: center;
   gap:10px;
    
  }
+ .location{
+padding: 20px;
+     
+   }
 
  figure img {
     width: 100%;
