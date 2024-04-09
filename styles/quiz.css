@@ -57,7 +57,7 @@ form{
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius:0.5rem;
     background-color:#ccc;
-    display:grid;
+    display:block;
     padding:10px;
     } 
 
@@ -69,12 +69,4 @@ form{
         color:#777;
         border-top:1px solid #ccc;
                    }
-    .form-item{
-        display:grid;
-        align-items: center;
-     }
-    
-    .column1{
-    grid-template-columns: 3fr 1fr;
-    margin:0.5rem 0;
-    }   
+     
