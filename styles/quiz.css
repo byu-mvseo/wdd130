@@ -101,4 +101,8 @@ label, input, select,textarea, button, select{
     font-size:1.1rem;
      padding:0.5rem;
  }
- label
+ 
+    label>.number{
+       color:#1A2C85;
+       
+     }
