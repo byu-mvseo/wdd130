@@ -34,7 +34,7 @@ body{
         font-family: var(--paragraph-font);
     }   
  .indexpage{
-  width: 100%;
+  width: 100%!important;
           margin:0 auto;
           font-family: var(--paragraph-font);
       }   
