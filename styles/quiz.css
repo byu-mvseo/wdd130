@@ -45,3 +45,13 @@ p{
     padding:25px;
     color: var(--text-color);
 }
+form{
+    margin:0 auto;
+    width: 650px;
+    padding:1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius:0.5rem;
+    background-color:#ccc;
+    display:grid;
+    padding:10px;
+    } 
