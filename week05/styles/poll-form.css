@@ -81,3 +81,16 @@ form{
   height:22px;
   vertical-align: bottom;
           }
+          button{
+margin:1rem;
+background-color: var(--nav-hover-background-color);
+color:var(--accent1-color);
+border:none;
+border-radius: .5rem;
+padding: 0.75rem;
+font-size: 1.2 rem;
+                }
+
+                button:hover{
+                 background-color: var(--secondary-color);
+                            }
