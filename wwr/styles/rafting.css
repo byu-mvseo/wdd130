@@ -213,3 +213,13 @@ label, input, select,textarea, button{
     font-size:1.1rem;
      padding:0.5rem;
  }
+ input[type="checkbox"]{
+    width:22px;
+    height:22px;
+    vertical-align: bottom;
+            }
+input[type="option"]{
+                width:22px;
+                height:22px;
+                vertical-align: bottom;
+                        }
