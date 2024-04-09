@@ -56,7 +56,7 @@ p{
 }
 .bighero{
   background-image:url(images/);
-  
+  background-size: cover;
        
 }
 .hero img{
