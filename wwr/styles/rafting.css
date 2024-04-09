@@ -144,6 +144,7 @@ nav{
    }
  .contactform{
     flex:1;
+    width: 100%; 
     padding: 20px;
   justify-content: space-around;
   align-items: start;
@@ -152,6 +153,7 @@ nav{
  }
  .location{
     flex:1;
+    width: 100%; 
 padding: 20px;
      
    }
