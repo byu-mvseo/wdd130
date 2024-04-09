@@ -129,7 +129,6 @@ nav{
  }
  .adventuregrid,.employees, .companyinfo{
     display: flex;
-    /*flex:20% 20% 20% 20% 20%;*/
   justify-content: space-around;
   align-items: center;
   gap:10px;
@@ -137,8 +136,9 @@ nav{
  }
  .companyinfo{
     display: flex;
+    flex-direction: row; 
     justify-content: space-around;
-    align-items: center;
+    align-items:start;
     gap:10px;
      
    }
@@ -146,7 +146,7 @@ nav{
     flex:1;
     padding: 20px;
   justify-content: space-around;
-  align-items: center;
+  align-items: start;
   gap:10px;
    
  }
