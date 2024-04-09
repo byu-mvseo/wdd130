@@ -133,10 +133,16 @@ nav{
   justify-content: space-around;
   align-items: center;
   gap:10px;
- 
-  
+   
  }
-
+ .contactform{
+    display: flex;
+    /*flex:20% 20% 20% 20% 20%;*/
+  justify-content: space-around;
+  align-items: center;
+  gap:10px;
+   
+ }
 
  figure img {
     width: 100%;
@@ -163,4 +169,28 @@ footer{
   footer p{
     color:var(--accent1-color);
      }
- 
+ /*form*/
+ form{
+    margin:0 auto;
+    width: 650px;
+    padding:2rem 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius:0.5rem;
+    background-color:#ccc;
+    display:grid;
+    padding:10px;
+    } 
+    
+ button{
+    background-color: var(--nav-hover-background-color);
+    color:var(--accent1-color);
+    border:none;
+    border-radius: .5rem;
+    padding:0.75rem;
+    font-size:1.2rem;
+    margin:1rem 0;
+                    }
+    
+button:hover{
+background-color: var(--secondary-color);
+}

@@ -52,19 +52,26 @@
                     </div>
                     <div class="form-item column">
                         <label for="question">Why you write us?</label>
-                        <input type="radio" id="satisfecho" name="satisfaccion" value="Satisfecho">
-                        <label for="satisfecho">Satisfecho</label><br>
+                        <input type="radio" id="general" name="question" value="General Inquiry">
+                        <label for="general">General Inquiry</label><br>
+                        <input type="radio" id="reservation" name="question" value="Reservation Question">
+                        <label for="reservation">Reservation Question</label><br>
+                        <input type="radio" id="web" name="question" value="Web Suggestion">
+                        <label for="web">Web Suggestion</label><br>
                     </div>
                     
-                    
                     <div class="form-item column">
-                        <label for="q4"><span class="number">4.</span> What's the bottom margin given in this declaration? </label>
-                        <p class="code">margin: 2px 5px 10px;</p>
-                        <input type="number" id="q4" name="q4">
+                        <label for="message">Write your message here</label>
+                       <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                    </div>
+
+                    <div class="form-item column">
+                        <label for="subscription">Do you like to receive our monthly news?</label>
+                       <input type="checkbox" name="subscription" id="subscription">
                     </div>
                 
                     <div class="form-item column">   
-                    <button type="submit">Submit Quiz</button>
+                    <button type="submit">Send Message</button>
                 </div>
                 
                     </form>
@@ -73,6 +80,12 @@
                 <div class="location">
                     <!--location area-->
                     <p>location area</p>
+                    <iframe src="" frameborder="0"></iframe>
+                    <ul>
+                        <li>Address</li>
+                        <li>Phone</li>
+                        <li>Email</li>
+                    </ul>
                     <!--end location area-->
                 </div>
            
