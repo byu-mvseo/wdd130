@@ -180,7 +180,14 @@ footer{
     display:grid;
     padding:10px;
     } 
-
+    .form-item{
+        display:grid;
+        align-items: center;
+     } 
+     .column{
+        grid-template-columns: 1fr;
+        margin:0.5rem 0;
+        } 
  button{
     background-color: var(--nav-hover-background-color);
     color:var(--accent1-color);
