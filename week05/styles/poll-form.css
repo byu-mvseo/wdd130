@@ -53,6 +53,7 @@ form{
     border-radius:0.5 rem;
     background-color:#ccc;
     display:grid;
+    padding:10px;
     } 
     fieldset{
       display:grid;
