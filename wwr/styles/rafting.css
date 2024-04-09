@@ -200,7 +200,7 @@ footer{
     padding:10px;
     } 
     .form-item{
-        display:grid;
+       /* display:grid;*/
         align-items: center;
      } 
      .column{
