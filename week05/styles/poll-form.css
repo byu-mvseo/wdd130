@@ -103,10 +103,10 @@ footer{
     color:#777;
     border-top:1px solid #ccc;
                }
-               .form-item{
-               display:grid;
-               align-items: center;
-                           }
+.form-item{
+    display:grid;
+    align-items: center;
+ }
 
 .column1{
 grid-template-columns: 3fr 1fr;
