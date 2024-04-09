@@ -218,8 +218,8 @@ label, input, select,textarea, button{
     height:22px;
     vertical-align: bottom;
             }
-input[type="option"]{
+input[type="radio"]{
                 width:22px;
                 height:22px;
-                vertical-align: bottom;
+                vertical-align: middle;
                         }
