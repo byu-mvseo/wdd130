@@ -159,7 +159,10 @@ nav{
     width: 100%; 
 
    }
+   .maplocation{
+  margin:2rem 0;
 
+   }
  figure img {
     width: 100%;
     }
