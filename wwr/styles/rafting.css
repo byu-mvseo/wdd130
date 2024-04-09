@@ -29,7 +29,7 @@
     }
 
 body{
-        max-width: 1024px;
+      max-width: 1024px;
         margin:0 auto;
         font-family: var(--paragraph-font);
     }   
@@ -50,8 +50,13 @@ p{
     text-decoration:none;  
  
  }
- .hero,.herohome{
+ .hero, .bighero{
     position: relative;
+       
+}
+.bighero{
+  background-image:url(images/);
+  
        
 }
 .hero img{
@@ -84,6 +89,8 @@ p{
    width: 150px;
    height: auto;
 }
+
+
 header{
    background-color:var(--primary-color);
    display:grid;
