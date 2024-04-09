@@ -98,12 +98,13 @@ label, input, select,textarea, button{
      text-align:left;
     padding-left:1rem;
 }
-  input, select, textarea{
+  input, select, textarea, button{
     font-size:1.1rem;
      padding:0.5rem;
  }
  
     label>.number{
        color:#1A2C85;
+       font-weight: bold;
 
      }
