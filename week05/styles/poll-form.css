@@ -46,9 +46,9 @@ body{
 form{
     margin:0 auto;
     width: 650px;
-    padding:;
-    border:;
-    border-radius:;
-    background-color: ;
-    display:;
+    padding:1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius:0.5 rem;
+    background-color: --var(accent1-color);
+    display:grid;
     } 
