@@ -33,7 +33,11 @@ body{
         margin:0 auto;
         font-family: var(--paragraph-font);
     }   
-  
+ .indexpage{
+  width: 100%;
+          margin:0 auto;
+          font-family: var(--paragraph-font);
+      }   
 h1,h2,h3,h4,h5,h6{
     font-family: var(--heading-font);
     color: var(--primary-color);
