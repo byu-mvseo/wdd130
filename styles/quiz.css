@@ -78,7 +78,6 @@ form{
                     margin:0.5rem 0;
                     } 
                     button{
-                        margin:1rem;
                         background-color: var(--nav-hover-background-color);
                         color:var(--accent1-color);
                         border:none;
