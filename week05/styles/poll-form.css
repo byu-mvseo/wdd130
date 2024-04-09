@@ -94,3 +94,11 @@ font-size: 1.2 rem;
                 button:hover{
                  background-color: var(--secondary-color);
                             }
+footer{
+    margin:1rem auto 0;
+    width: 650px;
+    text-align: center;
+    font-size: 0.8em;
+    color:#777;
+    border-top:1px solid #ccc;
+               }

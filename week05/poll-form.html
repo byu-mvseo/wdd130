@@ -13,25 +13,36 @@
 
             <fieldset>
                 <legend>Contact Info </legend>
+                <div class="form-item column2">
                 <label for="fullname">Full Name</label>
                 <input type="text"  id="fullname" name="fullname">
-                
+                </div>
+                <div class="form-item column2">
                 <label for="useremail">User Email</label>
                 <input type="email" id="useremail" name="useremail">
+            </div>
             </fieldset>
 
             <fieldset>
                 <legend>Questions</legend>
+                <div class="form-item column1">
                 <label for="browser">What is your favorite browser?</label>
+            </div>
+                <div class="form-item column1">
                 <select name="browser" id="browser">
                     <option value="chrome">chrome</option>
                     <option value="mozilla">mozilla</option>
                     <option value="explorer">explorer</option>
                 </select>
+            </div>
+            <div class="form-item column1">
                 <label for="pet">Do you have a household pet?</label>
                 <input type="checkbox" name="pet" id="pet">
+            </div>
+            <div class="form-item column1">
                 <label for="feedback">List the places you have lived: </label>
                 <textarea rows="4" name="feedback" id="feedback" placeholder="Montevideo Uruguay, Palm Beach Florida, Salo Finland"></textarea>
+            </div>
             </fieldset>
             <button type="submit">Submit Poll</button>
         </form>
