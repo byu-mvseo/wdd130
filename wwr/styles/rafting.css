@@ -127,7 +127,7 @@ nav{
  .historygrid img{
    width:100%;
  }
- .adventuregrid,.employees, .companyinfo{
+ .adventuregrid,.employees{
     display: flex;
   justify-content: space-around;
   align-items: center;
