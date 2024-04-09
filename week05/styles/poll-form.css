@@ -32,4 +32,11 @@ body{
         margin:0 auto;
         font-family: var(--paragraph-font);
         font-size: 1.2em;
-    }   
+    }  
+ header{
+    margin:0 auto;
+    width: 650px;
+    }      
+    h1{
+ 
+    }  
