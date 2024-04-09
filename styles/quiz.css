@@ -90,7 +90,7 @@ form{
 button:hover{
 background-color: var(--secondary-color);
  }
-label, input, select,textarea, button, select{
+label, input, select,textarea, button{
     font-family:Arial, Helvetica, sans-serif;
     width: 100%;
 }
