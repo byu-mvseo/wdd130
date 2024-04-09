@@ -142,20 +142,22 @@ nav{
     gap:10px;
      
    }
- .contactform{
-    flex:2;
-    width: 100%; 
+   .contactform, .location {
+    flex: 1; 
     padding: 20px;
+   }
+
+ .contactform{
+     width: 100%; 
+  
   justify-content: space-around;
   align-items: start;
  
    
  }
  .location{
-    flex:1;
     width: 100%; 
-padding: 20px;
-     
+
    }
 
  figure img {
