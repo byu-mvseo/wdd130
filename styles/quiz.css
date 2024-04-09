@@ -69,4 +69,7 @@ form{
         color:#777;
         border-top:1px solid #ccc;
                    }
-     
+                   .form-item{
+                    display:grid;
+                    align-items: center;
+                 } 
