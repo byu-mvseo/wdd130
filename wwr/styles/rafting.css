@@ -272,11 +272,9 @@ gap: 20px;
 .companyfeatures{
    grid-column: 1/4;
    grid-row:1/7;
-
-                            }
+}
  .companyfeatures2{
  grid-column: 3/6;
  grid-row: 2/5;
- ;
 }
                            
