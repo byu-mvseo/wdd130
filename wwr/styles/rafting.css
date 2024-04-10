@@ -110,6 +110,7 @@ header{
 .social img{
    width: 30px;
    height: auto;
+   float:right;
     }
 .navigation{
        list-style: none;
