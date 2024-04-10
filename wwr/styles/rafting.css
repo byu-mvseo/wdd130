@@ -136,14 +136,14 @@ header{
     color:var(--primary-color);
     text-decoration: none;
                     }
-.historygrid{
+.historygrid, .companygrid{
     display:flex;
     /*flex:33% 34% 33%;*/
     justify-content: space-around;
   align-items: center;
   gap:10px;
  }
- .historygrid img{
+ .historygrid img, .companygrid img{
    width:100%;
  }
  .adventuregrid,.employees{
@@ -262,22 +262,6 @@ input[type="radio"]{
                 vertical-align: middle
                         }
                       
-.gridcompany{
-display:grid;
-grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-gap: 20px;
-    padding: 20px;
-    justify-items: center;
-            }
-.companyfeatures{
-   grid-column: 1/4;
-   grid-row:1/6;
-}
- .companyfeatures2{
- grid-column: -1/-4;
- grid-row: 2/5;
-}
                            
 .button-link {
     display: inline-block;
